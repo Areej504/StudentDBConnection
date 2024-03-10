@@ -11,29 +11,27 @@ The `StudentDBConnection` class connects to a PostgreSQL database and provides m
 To run this project, ensure you have Java installed on your system along with the PostgreSQL JDBC driver. You'll also need access to a PostgreSQL database with a table named `students`.
 
 ## Usage
+1. Download or clone the Github repository at https://github.com/Areej504/StudentDBConnection.git
 
-1. **Set Up Database Connection**: Modify the `main` method in the `StudentDBConnection` class to specify your database URL, username, and password.
+2. Set Up Database Connection: Modify the `main` method in the `StudentDBConnection` class to specify your database URL, username, and password.
 
-2. **Run the Application**: Compile and run the `StudentDBConnection` class. This will establish a connection to your database and execute various operations.
+3. Run the Application: Compile and run the `StudentDBConnection` class. This will establish a connection to your database and execute various operations.
 
 ## Functionality
 
-### Retrieving all Students
+- Retrieving all Students: To retrieve and display all student records from the database, call the `getAllStudents()` method.
 
-To retrieve and display all student records from the database, call the `getAllStudents()` method.
+- Adding a Student: To add a new student to the database, call the `addStudent()` method and provide the student's first name, last name, email, and enrollment date.
 
-### Adding a Student
+- Updating a Student's Email: To update the email address for a specific student, call the `updateStudentEmail()` method with the student's ID and the new email address.
 
-To add a new student to the database, call the `addStudent()` method and provide the student's first name, last name, email, and enrollment date.
-
-### Updating a Student's Email
-
-To update the email address for a specific student, call the `updateStudentEmail()` method with the student's ID and the new email address.
-
-### Deleting a Student
-
-To delete a student record from the database, call the `deleteStudent()` method and provide the student's ID.
+- Deleting a Student: To delete a student record from the database, call the `deleteStudent()` method and provide the student's ID.
 
 ## Dependencies
 
 - PostgreSQL JDBC Driver
+
+## Author
+Areej Mahmoud 101218260
+
+
