@@ -31,6 +31,10 @@ To run this project, ensure you have Java installed on your system along with th
 
 - PostgreSQL JDBC Driver
 
+## Video Demonstration
+Watch the Video below for a live demo of the application's functionality!
+
+
 ## Author
 Areej Mahmoud 101218260
 
