@@ -105,7 +105,7 @@ public class StudentDBConnection{
                 //students.getAllStudents();
                 //students.addStudent("Jimmy", "Neutron", "jim.neutron@example.com", "2023-09-03");
                 //students.updateStudentEmail(4, "jim_neutron22@example.com");
-                students.deleteStudent(4);
+                //students.deleteStudent(4);
             } else {
                 System.out.println("Failed to establish connection.");
             }
