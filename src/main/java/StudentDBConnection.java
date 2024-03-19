@@ -102,9 +102,9 @@ public class StudentDBConnection{
             if (conn != null) {
                 System.out.println("Connected to PostgreSQL successfully!");
                 StudentDBConnection students = new StudentDBConnection(conn);
-                students.getAllStudents();
-                students.addStudent("Jimmy", "Neutron", "jim.neutron@example.com", "2023-09-03");
-                students.updateStudentEmail(4, "jim_neutron22@example.com");
+                //students.getAllStudents();
+                //students.addStudent("Jimmy", "Neutron", "jim.neutron@example.com", "2023-09-03");
+                //students.updateStudentEmail(4, "jim_neutron22@example.com");
                 students.deleteStudent(4);
             } else {
                 System.out.println("Failed to establish connection.");
